@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/teal_700"
+    tools:context=".FormInput">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/title_form_input" />
+
+            <EditText
+                android:id="@+id/hint_form_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginVertical="5dp"
+                android:padding="10dp"
+                android:background="@color/teal_200"
+                android:hint="@string/hint_form_input" />
+
+            <Button
+                android:id="@+id/button_form_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_form_input" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

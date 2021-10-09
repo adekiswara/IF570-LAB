@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">UTS_40037</string>
+
+    <string name="app_name_main">SFX Library and Previewer</string>
+    <string name="profile_button_main">PROFILE</string>
+    <string name="library_button_main">LIBRARY</string>
+
+    <string name="title_form_input">LOGIN PAGE</string>
+    <string name="hint_form_input">Masukkan nama anda</string>
+    <string name="button_form_input">NEXT</string>
+
+    <string name="profile_library">Profile</string>
+    <string name="logout_library">Logout</string>
+    <string name="delete_library">Delete</string>
+
+    <string name="button_sfx_detail">PLAY SFX</string>
+
+    <string name="profile_name">Ade Kiswara</string>
+    <string name="profile_nim">00000040037</string>
+    <string name="profile_class">IF560-BL</string>
+    <string name="profile_reference">REFERENSI :</string>
+    <string name="profile_reference1">https://www.stackoverflow.com/</string>
+    <string name="profile_reference2">https://www.youtube.com/</string>
+</resources>
